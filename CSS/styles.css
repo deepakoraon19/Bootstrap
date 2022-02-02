@@ -13,9 +13,19 @@
 h1{
     font-family:Montserrat ;
     
-    font-size: 3rem;
+    font-size: 3.2rem;
     line-height: 1.5;
     /* margin-top: 10%; */
+}
+h2{
+    font-family:Montserrat ;
+    font-size: 3rem;
+    line-height: 1.5;
+    /* padding:5% 0%; */
+}
+h3{
+    font-family:Montserrat;
+    font-size: 1.5rem;
 }
 li{
     font-family:Ubuntu ; 
@@ -24,6 +34,15 @@ li{
 .container-fluid{
     padding: 5% 15%;
     
+}
+.doggo{
+    width:10%;
+    margin: 20px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
 }
 .nav-item{
     padding:0 18px;
@@ -42,4 +61,26 @@ li{
     -ms-transform: rotate(20deg);
     -o-transform: rotate(20deg);
     width:60%;
+}
+#features{
+    text-align: center;
+    padding:7% 15%;
+    line-height: 3rem;
+}
+.ft-btn{
+    font-size: 3.5rem;
+    color:#ef8172;
+}
+p{
+    color:#8f8f8f;
+    text-align: center;
+}
+.ft-btn:hover{
+    color:#ff4c68;
+}
+#testimonials{
+    text-align: center;
+    padding:5% 15%;
+    background-color: #ef8172;
+    color: white;
 }
