@@ -1,12 +1,45 @@
 #title{
     background-color: #ff4c68;
+    color:white;
 }
-.h1{
-    font-family: 'Montserrat-Black';
-    color: black;
+#tindog{
+    font-family:Ubuntu ;
+    font-size: 2.5rem;
+  
+}
+#nav{
+    margin-bottom: 300;
+}
+h1{
+    font-family:Montserrat ;
+    
     font-size: 3rem;
     line-height: 1.5;
+    /* margin-top: 10%; */
+}
+li{
+    font-family:Ubuntu ; 
+    font-size: 1.5rem;
 }
 .container-fluid{
     padding: 5% 15%;
+    
+}
+.nav-item{
+    padding:0 18px;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.down-button
+{
+    margin:5% 3% 5% 0;
+}
+.title-image{
+    transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    width:60%;
 }
