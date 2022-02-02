@@ -54,6 +54,18 @@ li{
 {
     margin:5% 3% 5% 0;
 }
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressimg{
+    width:14%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom:5%;
+
+}
 .title-image{
     transform: rotate(20deg);
     -webkit-transform: rotate(20deg);
@@ -63,13 +75,15 @@ li{
     width:60%;
 }
 #features{
-    text-align: center;
+    /* text-align: center; */
     padding:7% 15%;
-    line-height: 3rem;
 }
 .ft-btn{
     font-size: 3.5rem;
     color:#ef8172;
+    line-height: 6rem;
+    width: 20%;
+
 }
 p{
     color:#8f8f8f;
@@ -83,4 +97,7 @@ p{
     padding:5% 15%;
     background-color: #ef8172;
     color: white;
+}
+.row{
+    text-align: center;
 }
