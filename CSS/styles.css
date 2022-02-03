@@ -20,7 +20,7 @@ h1{
     
     font-size: 3.2rem;
     line-height: 1.5;
-    text-align: left;
+    /* text-align: left; */
     /* margin-top: 10%; */
 }
 h2{
@@ -125,4 +125,20 @@ p{
 }
 .txt-cl{
     text-align: left;
+}
+
+@media (max-width:1024px)
+{
+    .title-image{
+       position:static;
+       transform:rotate(0);
+       
+       -webkit-transform:rotate(0);
+       -moz-transform:rotate(0);
+       -ms-transform:rotate(0);
+       -o-transform:rotate(0);
+    }
+    #title{
+        text-align:center;
+    }
 }
